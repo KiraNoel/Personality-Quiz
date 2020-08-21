@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>What's your personality</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+  <h1>Build a tasty milkshake to determine your personality type</h1>
+  
+    <!-- first quiz question and answers -->
+    <h2>Choose your icecream base</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src= "https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FvanillaIcecream.jpg?v=1595542146043">
+        <br>
+        <button id="q1a1">Vanilla</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FstrawberryIcecream.jpg?v=1595542126645">
+        <br>
+        <button id="q1a2">Strawberry</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FchocolateIcecream.jpg?v=1595542011948">
+        <br>
+        <button id="q1a3">Chocolate</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FcookieDoughIcecream.jpg?v=1595542038099">
+        <br>
+        <button id="q1a4">Cookie Dough</button>
+      </div>
+    </div> 
+    
+    <!-- second quiz question and answers-->
+    <h2>Choose the first layer of toppings</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fwhipped-cream-4380297_960_720.jpg?v=1595542291486">
+        <br>
+        <button id="q2a1">Whipped Cream</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FchocolateSyrup.jpg?v=1595542022751">
+        <br>
+        <button id="q2a2">Chocolate Syrup</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FstrawberrySyrup.jpg?v=1595542135572">
+        <br>
+        <button id="q2a3">Strawberry Syrup</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fcancel.png?v=1595542825255">
+        <br>
+        <button id="q2a4">None</button>
+      </div>
+    </div> 
+    
+    <!-- third quiz question and answers-->
+    <h2>Choose your sprinkles</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FrainbowSprinkles.jpg?v=1595542104076">
+        <br>
+        <button id="q3a1">Rainbow Sprinkles</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FpearlSprinkles.jpg?v=1595542092677">
+        <br>
+        <button id="q3a2">Pearl Sprinkles</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FheartSprinkles.jpg?v=1595542046039">
+        <br>
+        <button id="q3a3">Heart Sprinkles</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fcancel.png?v=1595542825255">
+        <br>
+        <button id="q3a4">No Sprinkles</button>
+      </div>
+    </div> 
+    
+    <!--fourth quiz question and answers-->
+     <h2>Final Toppings</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2FmaraschinoCherry.jpg?v=1595542070407">
+        <br>
+        <button id="q4a1">Maraschino Cherry</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fmarshmallows.jpg?v=1595542081359">
+        <br>
+        <button id="q4a2">Marshmallows</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fcookies.jpg?v=1595542057616">
+        <br>
+        <button id="q4a3">Cookies</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/64de942d-44b3-411d-a815-51beaf3cb13a%2Fcancel.png?v=1595542825255">
+        <br>
+        <button id="q4a4">None</button>
+      </div>
+    </div> 
+    
+    <div class="result">
+      <h2 id="result">Your result is... </h2>
+    </div>
+    
+    <button id="retake">
+      Retake the quiz!
+    </button>
+    
+  </body>
+</html>
